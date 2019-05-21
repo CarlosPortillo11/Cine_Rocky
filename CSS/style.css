@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:700');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600');
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+
+body{
+background-image: url("../Images/fondo.jpg");
+position: absolute;
+background-size: cover;
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 150px;
+}
+
+.titlebox{
+  background: rgba(103, 122, 142, 0.5);
+  margin: 35px 40px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.bloque1{
+  background: rgba(103, 122, 142, 0.5);
+  padding: 10px 10px;
+  margin: 35px 40px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.sinop{
+  font-size: 40px;
+  font-family: 'Anton', sans-serif;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  color: red;
+  padding: 0 250px;
+}
+
+.sinopsis{
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  width: 700px;
+  color: white;
+  padding: 20px 25px;
+}
+
+.poster{
+  padding: 0 55px;
+  float: right;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.bloque2{
+  background: rgba(103, 122, 142, 0.5);
+  padding: 10px 10px;
+  margin: 35px 40px;
+  height: 450px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.produccion{
+  font-size: 40px;
+  font-family: 'Anton', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  padding: 0 250px;
+}
+
+.producci{
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  width: 700px;
+  color: white;
+  padding: 20px 25px;
+}
+
+.poster1{
+  padding: 0 55px;
+  float: right;
+  height: 400px;
+  border-radius: 10px;
+  padding: 20px 50px;
+}
+
+.bloque3{
+  background: rgba(103, 122, 142, 0.5);
+  padding: 0 35px;
+  height: 900px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.images{
+  font-size: 55px;
+  font-family: 'Anton', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+}
+
+.gal{
+  width: 600px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: lightblue;
+
+}
+
+.gal2{
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: lightblue;
+}
+
+.bloque4{
+  background: rgba(103, 122, 142, 0.5);
+  padding: 10px 10px;
+  margin: 35px 40px;
+  height: 1150px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.videos{
+  font-size: 55px;
+  font-family: 'Anton', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+}
+
+.trailer{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pelea{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.trailert{
+  font-size: 20px;
+  font-family: 'Anton', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.peleat{
+  font-size: 20px;
+  font-family: 'Anton', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.bloque5{
+  background: rgba(103, 122, 142, 0.5);
+  padding: 0 35px;
+  height: 1000px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.actor{
+  font-size: 55px;
+  font-family: 'Anton', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: red;
+}
+
+.actorgal{
+  border-width: 5px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.zoom img{
+  height: 225px;
+  width: 205px;
+  margin: 0px 0;
+  transition: all 1s ease;
+}
+
+.zoom img:hover{
+  height: 275px;
+  width: 250;
+  margin: 0 auto;
+}
+
+
+.tabla{
+  align: center;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h5{
+  font-size: 25px;
+  font-family: 'Anton', sans-serif;
+  color: red;
+  letter-spacing: 2px;
+}
+
+h6{
+  font-size: 20px;
+  font-family: font-family: 'Nanum Gothic', sans-serif;
+  color: white;
+}
